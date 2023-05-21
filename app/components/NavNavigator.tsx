@@ -12,15 +12,15 @@ const NavNavigator = () => {
     <>
       {pathname !== '/' && (
         <Link href="/">
-          <div className="flex items-center">
-            <AiOutlineHome />
+          <div className="flex items-center px-4 mr-2 h-10 bg-zinc-200 hover:bg-zinc-300 rounded-lg">
+            <AiOutlineHome size={'1.3rem'} />
           </div>
         </Link>
       )}
 
       {pathname !== '/notes' && (
         <Link href="/notes">
-          <div className="flex items-center gap-1">
+          <div className="flex items-center h-10 gap-1 px-4 mr-2 bg-zinc-200 hover:bg-zinc-300 rounded-lg">
             <CgNotes />
             <span>Notes</span>
           </div>
