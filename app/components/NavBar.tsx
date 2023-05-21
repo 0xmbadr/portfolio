@@ -1,6 +1,6 @@
 import NavDropDown from './NavDropDown';
 import Link from 'next/link';
-import { CgNotes } from 'react-icons/cg';
+import NavNavigator from './NavNavigator';
 
 const NavBar = () => {
   return (
@@ -9,13 +9,7 @@ const NavBar = () => {
         <h1 className="text-xl font-bold cursor-pointer">DevBadr</h1>
       </Link>
       <div>
-        <Link href="/notes">
-          <div className="flex items-center gap-1">
-            <CgNotes />
-            <span>Notes</span>
-          </div>
-        </Link>
-
+        <NavNavigator />
         <div className="flex items-center">
           <button>Contact Me</button>
           <NavDropDown />
