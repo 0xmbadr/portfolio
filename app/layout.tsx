@@ -1,4 +1,4 @@
-import { Cairo } from 'next/font/google';
+import { Roboto } from 'next/font/google';
 import './globals.css';
 import NavBar from './components/NavBar';
 
@@ -7,7 +7,8 @@ export const metadata = {
   description: 'My Own portfolio',
 };
 
-const cairo = Cairo({
+const roboto = Roboto({
+  weight: '400',
   subsets: ['latin'],
   display: 'swap',
 });
@@ -18,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={cairo.className}>
+    <html lang="en" className={roboto.className}>
       <body className="bg-zinc-50">
         <NavBar />
         {children}

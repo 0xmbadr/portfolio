@@ -1,8 +1,9 @@
+import ProjectsList from './components/ProjectList';
 import SkillList from './components/SkillList';
 
 export default function Home() {
   return (
-    <main className="  container mx-auto mt-32 min-h-[calc(100vh-12rem)] pb-16">
+    <main className="container mx-auto mt-32 min-h-[calc(100vh-12rem)] pb-16 max-w-3xl">
       <div className="mx-auto py-32 max-w-4xl">
         <h2 className="text-xl font-bold text-center tracking-wide text-zinc-600 font-display">
           Hello!
@@ -12,7 +13,7 @@ export default function Home() {
         </h3>
       </div>
 
-      <section>
+      <section className="my-10">
         <article className="mx-3 p-2 space-y-4 prose-lg">
           <h4 className="text-2xl font-bold md:text-4xl">Who Am I?</h4>
           <p className="text-justify">
@@ -31,7 +32,7 @@ export default function Home() {
         </article>
       </section>
 
-      <section>
+      <section className="my-10">
         <div className="mx-3 p-2 space-y-4">
           <div>
             <h4 className="m-0 text-2xl font-bold md:text-4xl">
@@ -39,6 +40,15 @@ export default function Home() {
             </h4>
           </div>
           <SkillList />
+        </div>
+      </section>
+
+      <section>
+        <div className="mx-3 p-2 space-y-4">
+          <h4 className="m-0 text-2xl font-bold md:text-4xl">Projects</h4>
+          <div className="space-y-2">
+            <ProjectsList />
+          </div>
         </div>
       </section>
     </main>

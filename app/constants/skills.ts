@@ -13,6 +13,12 @@ const skills: Skill[] = [
     isFavorite: true,
   },
   {
+    image: '/logos/javascript.svg',
+    name: 'Javascript',
+    link: 'https://www.javascript.com/',
+    isFavorite: false,
+  },
+  {
     image: '/logos/react.svg',
     name: 'React',
     link: 'https://react.dev/',
@@ -29,12 +35,6 @@ const skills: Skill[] = [
     name: 'NodeJS',
     link: 'https://nodejs.org/',
     isFavorite: true,
-  },
-  {
-    image: '/logos/javascript.svg',
-    name: 'Javascript',
-    link: 'https://www.javascript.com/',
-    isFavorite: false,
   },
   {
     image: '/logos/git.svg',
