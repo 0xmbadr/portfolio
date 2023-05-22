@@ -11,7 +11,8 @@ export interface Project {
 const projects: Project[] = [
   {
     name: 'Messaging App',
-    description: '',
+    description:
+      "A real-time messenger clone that allows users to send and receive messages in real time. This project utilizes Next's App directory, and uses NextAuth for Authentication, Tailwind for styling and Prisma wiht MongoDB for DB.",
     links: {
       github: 'https://github.com/MrCarbene/next13-messaging-app',
       site: 'https://next13-messaging-app.vercel.app/',
@@ -30,7 +31,8 @@ const projects: Project[] = [
   },
   {
     name: 'Task Management',
-    description: '',
+    description:
+      'A Task Management Application that allows users to create, track, and complete tasks. The project is built with React, Vite, Redux, and SASS.',
     links: {
       github: 'https://github.com/MrCarbene/task-management-app',
       site: 'https://mrcarbene.github.io/task-management-app/',
@@ -41,7 +43,7 @@ const projects: Project[] = [
     name: 'DevBadr',
     description: 'My personal portfolio',
     links: {
-      github: '',
+      github: 'https://github.com/MrCarbene/portfolio',
       site: '/#top',
     },
     tech: ['Typescript', 'React', 'Next', 'Tailwind'],

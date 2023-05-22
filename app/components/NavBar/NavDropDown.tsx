@@ -17,14 +17,14 @@ const NavDropDown = () => {
       <Menu.Items
         as="div"
         className="absolute right-0 top-12 bg-zinc-800 text-white">
-        <Menu.Item
+        {/* <Menu.Item
           as="a"
           href=""
           target="_blank"
           className="flex items-center gap-2 px-4 py-2 space-x-2 border-b whitespace-nowrap text-zinc-100 hover:bg-zinc-600">
           <SlSocialTwitter />
           <p>Twitter</p>
-        </Menu.Item>
+        </Menu.Item> */}
         <Menu.Item
           as="a"
           href="https://www.linkedin.com/in/muhammad-badr98/"
@@ -41,14 +41,14 @@ const NavDropDown = () => {
           <SlSocialGithub />
           <p>Github</p>
         </Menu.Item>
-        <Menu.Item
+        {/* <Menu.Item
           as="a"
           href=""
           target="_blank"
           className="flex items-center gap-2 px-4 py-2 space-x-2 border-b whitespace-nowrap text-zinc-100 hover:bg-zinc-600">
           <MdOutlineEmail />
           <p>Email</p>
-        </Menu.Item>
+        </Menu.Item> */}
       </Menu.Items>
     </Menu>
   );

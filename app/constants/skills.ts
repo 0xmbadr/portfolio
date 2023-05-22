@@ -31,16 +31,28 @@ const skills: Skill[] = [
     isFavorite: true,
   },
   {
+    image: '/logos/tailwind.svg',
+    name: 'TailwindCSS',
+    link: 'https://tailwindcss.com/',
+    isFavorite: false,
+  },
+  {
+    image: '/logos/sass.svg',
+    name: 'SCSS',
+    link: 'https://sass-lang.com/',
+    isFavorite: false,
+  },
+  {
     image: '/logos/node.svg',
     name: 'NodeJS',
     link: 'https://nodejs.org/',
     isFavorite: true,
   },
   {
-    image: '/logos/git.svg',
-    name: 'Git',
-    link: 'https://git-scm.com/',
-    isFavorite: false,
+    image: '/logos/nest.svg',
+    name: 'NestJS',
+    link: 'https://nestjs.com/',
+    isFavorite: true,
   },
   {
     image: '/logos/mongo.svg',
@@ -52,24 +64,6 @@ const skills: Skill[] = [
     image: '/logos/postgresql.svg',
     name: 'PostgreSQL',
     link: 'https://www.postgresql.org/',
-    isFavorite: false,
-  },
-  {
-    image: '/logos/tailwind.svg',
-    name: 'TailwindCSS',
-    link: 'https://tailwindcss.com/',
-    isFavorite: false,
-  },
-  {
-    image: '/logos/html.svg',
-    name: 'HTML',
-    link: 'https://html.spec.whatwg.org/',
-    isFavorite: false,
-  },
-  {
-    image: '/logos/css.svg',
-    name: 'CSS',
-    link: 'https://www.w3.org/TR/CSS/',
     isFavorite: false,
   },
 ];
