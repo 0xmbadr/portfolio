@@ -1,6 +1,7 @@
 import { Roboto } from 'next/font/google';
 import './globals.css';
 import NavBar from './components/NavBar';
+import Footer from './components/Footer';
 
 export const metadata = {
   title: 'devBadr 👋',
@@ -23,6 +24,7 @@ export default function RootLayout({
       <body className="bg-zinc-50">
         <NavBar />
         {children}
+        <Footer />
       </body>
     </html>
   );

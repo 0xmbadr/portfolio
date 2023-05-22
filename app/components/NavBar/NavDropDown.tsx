@@ -27,7 +27,7 @@ const NavDropDown = () => {
         </Menu.Item>
         <Menu.Item
           as="a"
-          href=""
+          href="https://www.linkedin.com/in/muhammad-badr98/"
           target="_blank"
           className="flex items-center gap-2 px-4 py-2 space-x-2 border-b whitespace-nowrap text-zinc-100 hover:bg-zinc-600">
           <SlSocialLinkedin />
@@ -35,7 +35,7 @@ const NavDropDown = () => {
         </Menu.Item>
         <Menu.Item
           as="a"
-          href=""
+          href="https://github.com/mrcarbene"
           target="_blank"
           className="flex items-center gap-2 px-4 py-2 space-x-2 border-b whitespace-nowrap text-zinc-100 hover:bg-zinc-600">
           <SlSocialGithub />
