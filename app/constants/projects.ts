@@ -48,6 +48,26 @@ const projects: Project[] = [
     },
     tech: ['Typescript', 'React', 'Next', 'Tailwind'],
   },
+  {
+    name: 'brent',
+    description:
+      'This project serves as a back-end for a platform known as bRent, which enables landlords to offer their apartments for rental. In addition, other users can review apartments listed on the platform. ',
+    links: {
+      github: 'https://github.com/MrCarbene/brent',
+      site: '',
+    },
+    tech: ['TypeScript', 'Node', 'Nest', 'Swagger', 'TypeORM'],
+  },
+  {
+    name: 'bwrite',
+    description:
+      'This is a backend API for a blog application with different user roles such as writers, editors, admin, and normal users (called learners).The API provides a set of endpoints that enable writers and editors to perform various operations, such as creating, reading, updating, and deleting blogs',
+    links: {
+      github: 'https://github.com/MrCarbene/bwrite-api',
+      site: '',
+    },
+    tech: ['TypeScript', 'Node', 'Express', 'MongoDB', 'Mongoose'],
+  },
 ];
 
 export default projects;
