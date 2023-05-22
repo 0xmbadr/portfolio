@@ -4,7 +4,7 @@ import NavNavigator from './NavNavigator';
 
 const NavBar = () => {
   return (
-    <nav className="container mx-auto fixed flex flex-col items-center justify-between gap-2 px-6 py-4 md:flex-row bg-white/75 backdrop-blur-lg">
+    <nav className="fixed inset-x-0 top-0 z-40 flex flex-col items-center justify-between gap-2 px-6 py-4 md:flex-row bg-white/75 backdrop-blur-lg">
       <Link href="/">
         <h1 className="text-xl font-bold cursor-pointer">DevBadr</h1>
       </Link>
