@@ -10,6 +10,42 @@ export interface Project {
 
 const projects: Project[] = [
   {
+    name: 'HR LEAVE MANAGEMENT SYSTEM',
+    description:
+      'An application that helps organizations keep track of employee leave and absences. It allows employees to request any form of time-off, and managers or HR staff to approve or deny it',
+    links: {
+      github: 'https://github.com/MrCarbene/HR.LeaveManagement',
+      site: '',
+    },
+    tech: [
+      '.Net Core API',
+      '.Net Core MVC',
+      'Entity Framework',
+      'SQL Server',
+      'AuthJS',
+      'Moq',
+      'Shouldly',
+      'JWT',
+    ],
+  },
+  {
+    name: 'Reactivities',
+    description:
+      'A mini-social Media that allows users to organize or attend shared activities.',
+    links: {
+      github: 'https://github.com/MrCarbene/reactivites',
+      site: '',
+    },
+    tech: [
+      '.Net Core API',
+      'Entity Framework',
+      'SQL Server',
+      'Identity',
+      'Cloudinary',
+      'JWT',
+    ],
+  },
+  {
     name: 'Messaging App',
     description:
       "A real-time messenger clone that allows users to send and receive messages in real time. This project utilizes Next's App directory, and uses NextAuth for Authentication, Tailwind for styling and Prisma wiht MongoDB for DB.",
